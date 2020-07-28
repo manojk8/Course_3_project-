@@ -12,3 +12,5 @@ results that are associated with that string; be sure to only get movies, not ot
 HINT: Be sure to include only q, type, and limit as parameters in order to extract data from the cache. If any other parameters are included, then the function will
 not be able to recognize the data that you’re attempting to pull from the cache. Remember, you will not need an api key in order to complete the project, because all 
 data will be found in the cache.
+
+Use the python code for reference. Do the right thing.
