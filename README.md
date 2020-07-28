@@ -6,7 +6,7 @@ a whole list of titles. You’ll combine the resulting lists of related movies, 
 calls to the OMDB API.)To avoid problems with rate limits and site accessibility, we have provided a cache file with results for all the queries you need to make to 
 both OMDB and TasteDive. Just use requests_with_caching.get() rather than requests.get(). If you’re having trouble, you may not be formatting your queries properly,
 or you may not be asking for data that exists in our cache. We will try to provide as much information as we can to help guide you to form queries for which data exists
-in the cache.Your first task will be to fetch data from TasteDive. The documentation for the API is at https://tastedive.com/read/api.Define a function, called
+in the cache.Your first task will be to fetch data from TasteDive. The documentation for the API is at https://tastedive.com/read/api. Define a function, called
 get_movies_from_tastedive. It should take one input parameter, a string that is the name of a movie or music artist. The function should return the 5 TasteDive
 results that are associated with that string; be sure to only get movies, not other kinds of media. It will be a python dictionary with just one key, ‘Similar’.
 HINT: Be sure to include only q, type, and limit as parameters in order to extract data from the cache. If any other parameters are included, then the function will
